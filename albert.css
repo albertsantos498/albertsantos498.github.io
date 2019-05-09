@@ -2,27 +2,13 @@
    margin: 0px;
    padding: 0px;
 }
-header{
-    background: rgb(255, 0, 0);
-}
-section{
-    margin-left: 3%;
-    margin-right: 0%;  
-    background: rgb(red, rgb(151, 235, 73), blue);
-}
-.p1{
-    height:30% ;
-    width:29% ;
-    margin: 2%;
-}
-h1{
-    display: inline;
-}
-.c1{
-    padding:1%;
-} 
-.a2{
-    margin-left: 35%;
+@media(min-width:1200px){
+    header{background: rgb(255, 0, 0);}
+section{margin-left: 3%;margin-right: 0%;  background:rgb(255, 255, 255);}
+.p1{height:30% ;width:29% ;margin: 2%;}
+h1{display: inline;}
+.c1{padding:1%;} 
+.a2{ margin-left: 35%;
     margin-right: 0%;
 }
 h2{
@@ -94,5 +80,9 @@ h2{
     margin: 0%; 
     background: rgb(96, 255, 4);
     margin-left: 40%
+    
+}
+}
+@media()and(){
     
 }
